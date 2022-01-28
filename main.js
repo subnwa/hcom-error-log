@@ -15,9 +15,3 @@ if (error) {
     console(close)
 }
 
-
-
-console.log(console.error());
-console.log('Error', error);
-console.error()
-console.info(error)
