@@ -1,5 +1,5 @@
 {
-  "name": "hcom-error-log",
+  "name": "@hcom-error-log",
   "version": "1.0.0",
   "description": "A module that logs errors",
   "main": "main.js",
