@@ -1,0 +1,24 @@
+{
+  "name": "hcom-error-log",
+  "version": "1.0.0",
+  "description": "A module that logs errors",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subnwa/hcom-error-log.git"
+  },
+  "keywords": [
+    "error",
+    "log",
+    "npm"
+  ],
+  "author": "nwa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/subnwa/hcom-error-log/issues"
+  },
+  "homepage": "https://github.com/subnwa/hcom-error-log#readme"
+}
