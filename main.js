@@ -12,6 +12,6 @@ function error(options) {
 if (error) {
     var log = console
 } else {
-    console(close)
+    close
 }
 
