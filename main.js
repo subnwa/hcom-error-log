@@ -21,9 +21,19 @@ function logger(error) {
     if (error_log) {
         console.timeLog(error(logger))
     }
+
+    for (const hcom in object) {
+        if (Object.hasOwnProperty.call(object, hcom)) {
+            const element = object[hcom];
+            
+        }
+    }
+
+    
     
 }
 
 console.log(logger, error)
 console.error(Error);
-console.log(TypeError);
+
+
