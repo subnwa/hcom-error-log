@@ -35,5 +35,3 @@ function logger(error) {
 
 console.log(logger, error)
 console.error(Error);
-
-
