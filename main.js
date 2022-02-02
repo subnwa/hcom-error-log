@@ -38,11 +38,13 @@ function logger(error) {
         const object = error_log[hcom];
     }
 
-    
+    function error(error) {
+        File.Error(console.error(error));
+        
+    }
     
 }
 
 console.log(logger, error)
 console.error(Error);
-console.log(log);
-console.error()
+console.log(log, error);
