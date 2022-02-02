@@ -33,6 +33,11 @@ function logger(error) {
         }
     }
 
+    for (let errorB = 0; errorB < array.length; errorB++) {
+        const element = array[errorB];
+        const object = error_log[hcom];
+    }
+
     
     
 }
@@ -40,3 +45,4 @@ function logger(error) {
 console.log(logger, error)
 console.error(Error);
 console.log(log);
+console.error()
