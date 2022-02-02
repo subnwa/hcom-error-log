@@ -26,6 +26,7 @@ function logger(error) {
         if (Object.hasOwnProperty.call(object, hcom)) {
             const element = object[hcom];
             var error2 = error(console.log())
+            var error = FileList(error(logger))
             
         }
     }
