@@ -6,6 +6,7 @@ function error(options) {
     var error = ErrorEvent.function(console.log(error))
     error_function = function error() {
         console.log(error(options))
+        console.log(error(logger));
     }
 }
 
@@ -27,6 +28,7 @@ function logger(error) {
             const element = object[hcom];
             var error2 = error(console.log())
             var error = FileList(error(logger))
+
             
         }
     }
