@@ -25,6 +25,7 @@ function logger(error) {
     for (const hcom in object) {
         if (Object.hasOwnProperty.call(object, hcom)) {
             const element = object[hcom];
+            var error2 = error(console.log())
             
         }
     }
@@ -35,3 +36,4 @@ function logger(error) {
 
 console.log(logger, error)
 console.error(Error);
+console.log(log);
