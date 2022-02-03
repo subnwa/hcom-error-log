@@ -1,6 +1,6 @@
 {
-  "name": "hcom-error",
-  "version": "1.0.5",
+  "name": "@subnwa/hcom-error",
+  "version": "1.0.7",
   "description": "A module that logs errors",
   "main": "main.js",
   "scripts": {
@@ -17,6 +17,9 @@
   ],
   "author": "nwa",
   "license": "MIT",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
   "bugs": {
     "url": "https://github.com/subnwa/hcom-error-log/issues"
   },
